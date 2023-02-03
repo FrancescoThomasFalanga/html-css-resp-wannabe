@@ -134,3 +134,10 @@ img {
         max-width: 1140px;
     }
 }
+
+@media screen and (max-width:480px) {
+    .row {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+}
